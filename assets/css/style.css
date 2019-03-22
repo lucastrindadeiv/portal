@@ -1,4 +1,53 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif; /*font padrão*/
+	font-size: 12px;
+
+}
+
 .topo {
 	height: 30px;
 	background-color: #000000;
+}
+
+.topoint {
+	width: 100%;
+	max-width: 1040px;
+	height: 30px;
+	margin: auto;
+}
+
+.topoleft {
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+
+.toporight {
+	width: 50%;
+	height: 30px;
+	float: right;
+}
+
+.topoleft ul {  /*toda tag ul que diver dentro do topleft*/
+	margin: 0;
+	padding: 0;
+	list-style: none; /*remove estilização da lista*/
+}
+
+.topoleft li {
+	height: 30px;
+	line-height: 30px; /*texto centralizado*/
+	float: left; /*horizontal*/
+	margin-left: 8px; /*espaço da palavra para a esquerda*/
+	margin-right: 8px; /*espaço da palavra para a direita*/
+}
+
+.topoleft li a {
+	text-decoration: none; /*remove sublinhado*/
+	color: #FFF;
+}
+
+.topoleft li .ativo { /*quando clica fica azul*/
+	color:blue;
 }
