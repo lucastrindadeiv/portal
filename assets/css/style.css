@@ -49,5 +49,19 @@ body {
 }
 
 .topoleft li .ativo { /*quando clica fica azul*/
-	color:blue;
+	color: blue;
+}
+
+.topobusca {
+	width: 110px;
+	height: 26px;
+	outline: 0;
+}
+
+.toporight a {
+	float: right;
+}
+
+.toporight input {
+	float: right;
 }
